@@ -30,3 +30,15 @@ def binSearch(self, arr, x):
 
   return 0
 ```
+
+``` python
+def dfs(self, node, x):
+  if not node:
+    return False
+  if node.val == x:
+    return True
+  else:
+    left = dfs(node.left, x)
+    right = dfs(node.right, x)
+  return left or right
+```
