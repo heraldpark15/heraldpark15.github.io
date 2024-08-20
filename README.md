@@ -14,7 +14,7 @@ To make a link:
 * List One
 * List Two 
 
-''' python
+``` python
 def binSearch(self, arr, x):
   low, high = 0, len(arr) - 1
   while low <= high:
@@ -27,4 +27,4 @@ def binSearch(self, arr, x):
       low = mid + 1
 
 return 0
-'''
+```
