@@ -26,5 +26,5 @@ def binSearch(self, arr, x):
     else:
       low = mid + 1
 
-return 0
+  return 0
 ```
