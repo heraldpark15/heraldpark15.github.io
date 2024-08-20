@@ -15,7 +15,7 @@ To make a link:
 * List Two 
 
 ''' python
-def binSearch(arr, x):
+def binSearch(self, arr, x):
   low, high = 0, len(arr) - 1
   while low <= high:
     mid = (low + high) // 2
