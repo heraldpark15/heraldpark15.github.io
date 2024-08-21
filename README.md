@@ -42,3 +42,14 @@ def dfs(self, node, x):
     right = dfs(node.right, x)
   return left or right
 ```
+
+``` python
+def bfs(self, node, x):
+  if not node:
+    return False
+  q = deque([node])
+
+  while q:
+    l = len(q)
+    for i in range(l):
+      
